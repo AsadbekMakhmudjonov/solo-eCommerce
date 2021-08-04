@@ -670,11 +670,14 @@ body {
   .site-header__account--link {
     display: block;
   }
+  .site-header__account--item:not(:last-child) {
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 685px) {
   .site-header__account--item:not(:last-child) {
-    margin-left: 0;
+    margin-left: 15px;
   }
   .site-header__account--burger {
     display: inline-block;
@@ -683,7 +686,8 @@ body {
 
 @media only screen and (max-width: 540px) {
   .site-header__account--item:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-left: 0;
   }
 }
 
