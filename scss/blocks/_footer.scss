@@ -1,5 +1,12 @@
 .footer{
   padding: 64px 45px;
   background-color: #fff;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    padding: 35px 25px;
+  }
 }
 

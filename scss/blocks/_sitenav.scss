@@ -121,7 +121,6 @@
     background-color: #fff;
     padding: 20px;
     transition: transform 0.8s ease;
-    // transform: translateX(100%);
   }
 
   .sitenav__icon-close {
@@ -153,9 +152,9 @@
     position: static;
   }
 
-  .sitenav--open  {
+  .sitenav--open {
     display: block;
-    // transform: translateX(0);
+    transform: translateX(0);
     transition: transform 0.5s ease;
     background-color: #fff;
   }

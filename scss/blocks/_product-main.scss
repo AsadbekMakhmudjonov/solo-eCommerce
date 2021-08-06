@@ -1,5 +1,6 @@
 .product-main {
-  padding: 64px 0;
+
+  width: 270px;
 }
 
 .product-main__category{
@@ -14,4 +15,11 @@
   font-size: 18px;
   line-height: 27px;
   color: $color-primary;
+}
+
+
+@media only screen and (max-width : 1160px) {
+  .product-main{
+    width: 250px;
+  }
 }
